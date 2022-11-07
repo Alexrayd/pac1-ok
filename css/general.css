@@ -1,0 +1,31 @@
+body{
+    background-color: black;   
+}
+article{
+    font-size: 25px;
+    width: 440px;
+    color: white;
+    border-style: solid;
+    border-color: white;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+#articulo1{
+    float: left;
+    margin-left: 100px;
+}
+#articulo2{
+    float: left;
+    margin-left: 300px;
+}
+
+
+footer{
+    margin-top: 470px;
+    color: white;
+    text-align: center;
+}
+footer > nav {
+    margin-left: 43%;
+}

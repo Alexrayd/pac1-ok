@@ -1,0 +1,12 @@
+h1{
+    background-color: red;
+}
+main > article{
+    font-size: 25px;
+    border-style: solid;
+    border-radius: 10px;
+    margin: 10px;
+}
+aside > img{
+    width: 500px;
+}

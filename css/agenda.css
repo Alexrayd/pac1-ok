@@ -1,0 +1,24 @@
+th{
+    color: white;
+    border-style: solid;
+}
+main{
+    margin: 50px;
+}
+table{
+    background-color: red;
+    margin: 30px;
+    margin-left: 200px;
+    text-align: center;
+    width: 1000px;
+    font-size: 30px;
+}
+td{
+    color: white;
+    border-style: solid;
+}
+h2{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 35px;
+}

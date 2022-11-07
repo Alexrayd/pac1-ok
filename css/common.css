@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+}
+body{
+    background-color: black;
+    color: white;
+}
+header > div{
+    background-image: url(../img/queen.jpg) ;
+    background-position-y: bottom;
+    height: 200px;
+    background-size: 800px 200px;
+    background-position-x: -80px;
+}
+header > nav > ul{
+    list-style: none;
+    text-align: center;
+    background-color: blue;
+    height: 100px;
+    align-items: center;
+}
+header > nav > ul > li{
+    display: inline;
+    line-height: 100px;
+    margin-right: 50px;
+}
+header > nav > ul > li > a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    background-color: violet;
+    border-radius: 20px;
+} 
+header > nav > ul > li > a:hover{
+    background-color: red;
+    color: white;
+    
+}
+footer{
+    font-size: 20px;
+}
+footer > nav > ul{
+    list-style: none;
+    text-align: left;
+    height: 100px;
+    margin-left: -40px;
+}
+footer > nav > ul > li{
+        display: inline;
+        margin-right: 20px;
+}
+footer{
+    color: white;
+    text-align: center;
+}
+footer > nav {
+    margin-left: 43%;
+}
