@@ -6,3 +6,17 @@ iframe{
     width: 1000px;
     height: 600px;
 }
+@media only screen and (max-width: 600px) 
+{
+    main>iframe{
+        width: 400px;
+        height: 300px;
+    }
+}
+@media only screen and (min-width: 600px) and (max-width: 920px)
+{
+    main>iframe{
+        width: 500px;
+        height: 300px;
+    }
+}

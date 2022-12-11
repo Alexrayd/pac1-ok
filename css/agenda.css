@@ -2,15 +2,12 @@ th{
     color: white;
     border-style: solid;
 }
-main{
-    margin: 50px;
-}
+
 table{
     background-color: red;
-    margin: 30px;
-    margin-left: 200px;
+    margin: auto;
+    margin-top: 10px;
     text-align: center;
-    width: 1000px;
     font-size: 30px;
 }
 td{
@@ -21,4 +18,14 @@ h2{
     text-align: center;
     text-decoration: underline;
     font-size: 35px;
+}
+@media only screen and (max-width: 600px) {
+    table{
+        font-size: 15px;
+    }
+}
+@media only screen and (min-width: 600px) and (max-width: 920px){
+    table{
+        font-size: 20px;
+    }
 }

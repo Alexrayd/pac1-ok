@@ -15,8 +15,8 @@ header > div{
 header > nav > ul{
     list-style: none;
     text-align: center;
-    background-color: blue;
-    height: 100px;
+    background-color: red;
+    height: fit-content;
     align-items: center;
 }
 header > nav > ul > li{
@@ -31,28 +31,87 @@ header > nav > ul > li > a{
     background-color: violet;
     border-radius: 20px;
 } 
-header > nav > ul > li > a:hover{
-    background-color: red;
-    color: white;
-    
-}
+header > nav > ul > li > a:hover
+    {
+        background-color: purple;
+        color: white;       
+    }
 footer{
     font-size: 20px;
 }
+
 footer > nav > ul{
     list-style: none;
-    text-align: left;
     height: 100px;
-    margin-left: -40px;
+    margin-left: -35px;
 }
 footer > nav > ul > li{
-        display: inline;
-        margin-right: 20px;
+        display: inline;    
 }
+
 footer{
     color: white;
     text-align: center;
 }
-footer > nav {
-    margin-left: 43%;
+
+
+/*media query movil*/
+@media only screen and (max-width: 600px) 
+{
+    header > div{
+        background-image: url(../img/queen.jpg) ;
+        background-position-y: bottom;
+        height: 200px;
+        background-repeat: no-repeat;
+        background-size: 300px 200px;
+        background-position-x: center;
+    }
+    header > nav > ul
+    {
+        list-style: none;
+        text-align: center;
+        background-color: blue;
+        align-items: center;
+    }
+    header > nav > ul > li{
+        display: inline;
+        line-height: 100px;
+        margin-right: 50px;
+    }
+    header > nav > ul > li > a{
+        text-decoration: none;
+        color: black;
+        padding: 10px;
+        background-color: violet;
+        border-radius: 20px;
+    } 
+}
+/*media query tablet*/
+@media only screen and (min-width: 600px) and (max-width: 920px)
+{
+    header > div{
+        background-image: url(../img/queen.jpg) ;
+        background-position-y: bottom;
+        background-size: 800px 200px;
+        background-position-x: center;
+    }
+    header > nav > ul{
+        list-style: none;
+        text-align: center;
+        background-color: purple;
+        align-items: center;
+        height: fit-content;
+    }
+    header > nav > ul > li{
+        display: inline;
+        line-height: 100px;
+        margin-right: 50px;
+    }
+    header > nav > ul > li > a{
+        text-decoration: none;
+        color: black;
+        padding: 10px;
+        background-color: violet;
+        border-radius: 20px;
+    } 
 }
